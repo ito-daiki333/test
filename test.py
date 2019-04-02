@@ -13,3 +13,13 @@ elif (death == "いいえ") :
 
 else :
     print ("はい　か　いいえで答えろよくそ")
+
+
+class test():
+    def __init__ (self, message):
+        self.message = message
+
+print ("あなたのグチをどうぞ！")
+message = input()
+print (test(message).message)
+print ("\nそうですか分かりました")
